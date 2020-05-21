@@ -5,29 +5,27 @@ let mapleader = "\<Space>"
 set nocompatible
 filetype off                      "required
 
-
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'elixir-lang/vim-elixir'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'tpope/vim-surround'
-Plugin 'tpope/vim-fugitive'
-Plugin 'christoomey/vim-tmux-navigator'
-"Plugin 'christoomey/vim-tmux-runner'
-"Plugin 'vim-ruby/vim-ruby'
-Plugin 'tpope/vim-bundler'
-Plugin 'tpope/vim-commentary'
-Plugin 'tpope/vim-dispatch'
-Plugin 'terryma/vim-multiple-cursors'
-Plugin 'farseer90718/vim-taskwarrior'
-Plugin 'editorconfig/editorconfig-vim'
-Plugin 'wesQ3/vim-windowswap'
-Plugin 'godlygeek/tabular'
-call vundle#end()
+call plug#begin()
+Plug 'elixir-lang/vim-elixir'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'kchmck/vim-coffee-script'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-fugitive'
+Plug 'christoomey/vim-tmux-navigator'
+"Plug 'christoomey/vim-tmux-runner'
+"Plug 'vim-ruby/vim-ruby'
+Plug 'tpope/vim-bundler'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-dispatch'
+Plug 'tpope/vim-repeat'
+Plug 'terryma/vim-multiple-cursors'
+" Plug 'farseer90718/vim-taskwarrior'
+Plug 'editorconfig/editorconfig-vim'
+Plug 'wesQ3/vim-windowswap'
+Plug 'godlygeek/tabular'
+call plug#end()
 
 syntax on
 filetype plugin indent on
@@ -98,4 +96,5 @@ autocmd VimResized * :wincmd =
 " zoom a vim pane, <C-w>= to re-balance
 nnoremap <leader>- :wincmd _<cr>:wincmd \|<cr>
 nnoremap <leader>= :wincmd =<cr>
+
 
