@@ -35,11 +35,11 @@ myBorderWidth = 1
 
 -- Border colors for unfocused windows.
 myNormColor :: [Char]
-myNormalBorderColor = "#dddddd"
+myNormalBorderColor = "#292d3e"
 
 -- Border colors for focused windows.
 myFocusedBorderColor :: [Char]
-myFocusedBorderColor = "#ff0000"
+myFocusedBorderColor = "#bbc5ff"
 
 -- modMask lets you specify which modkey you want to use. The default
 -- is mod1Mask ("left alt").  You may also consider using mod3Mask
@@ -241,9 +241,9 @@ myEventHook = mempty
 --
 myLogHook = return ()
 
-------------------------------------------------------------------------
--- Startup hook
-
+ ------------------------------------------------------------------------ 
+ -- Startup hook
+ --------------------------------------------------------------------------
 -- Perform an arbitrary action each time xmonad starts or is restarted
 -- with mod-q.  Used by, e.g., XMonad.Layout.PerWorkspace to initialize
 -- per-workspace layout choices.
