@@ -6,6 +6,7 @@ set nocompatible
 filetype off                      "required
 
 call plug#begin()
+Plug 'lilydjwg/colorizer'
 Plug 'elixir-lang/vim-elixir'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
