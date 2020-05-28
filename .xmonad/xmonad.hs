@@ -18,26 +18,32 @@ import qualified Data.Map        as M
 
 -- The preferred terminal program, which is used in a binding below and by
 -- certain contrib modules.
+--
 myTerminal :: [Char]
 myTerminal = "alacritty" 
 
 -- Whether focus follows the mouse pointer.
+--
 myFocusFollowsMouse :: Bool
 myFocusFollowsMouse = True
 
 -- Whether clicking on a window to focus also passes the click to the window
+--
 myClickJustFocuses :: Bool
 myClickJustFocuses = False
 
 -- Width of the window border in pixels.
+--
 myBorderWidth :: Dimension
 myBorderWidth = 1
 
 -- Border colors for unfocused windows.
+-- 
 myNormColor :: [Char]
 myNormalBorderColor = "#292d3e"
 
 -- Border colors for focused windows.
+-- 
 myFocusedBorderColor :: [Char]
 myFocusedBorderColor = "#bbc5ff"
 
