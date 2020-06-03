@@ -39,7 +39,7 @@ myBorderWidth = 1
 
 -- Border colors for unfocused windows.
 -- 
-myNormColor :: [Char]
+myNormalBorderColor :: [Char]
 myNormalBorderColor = "#292d3e"
 
 -- Border colors for focused windows.
