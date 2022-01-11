@@ -9,26 +9,27 @@ filetype off                      "required
 "-------------------------------------------------------------------------------
 
 call plug#begin()
-Plug 'lilydjwg/colorizer'
-Plug 'elixir-lang/vim-elixir'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-Plug 'kchmck/vim-coffee-script'
-Plug 'ctrlpvim/ctrlp.vim'
-Plug 'tpope/vim-surround'
-Plug 'tpope/vim-fugitive'
-Plug 'christoomey/vim-tmux-navigator'
-"Plug 'christoomey/vim-tmux-runner'
-"Plug 'vim-ruby/vim-ruby'
-Plug 'tpope/vim-bundler'
-Plug 'tpope/vim-commentary'
-Plug 'tpope/vim-dispatch'
-Plug 'tpope/vim-repeat'
-Plug 'terryma/vim-multiple-cursors'
+
+source ~/.config/nvim/plugins/colorizer.vim
+source ~/.config/nvim/plugins/ctrlp.vim
+source ~/.config/nvim/plugins/editorconfig-vim.vim
+source ~/.config/nvim/plugins/tabular.vim
+source ~/.config/nvim/plugins/vim-airline.vim
+source ~/.config/nvim/plugins/vim-airline-themes.vim
+source ~/.config/nvim/plugins/vim-elixir.vim
+source ~/.config/nvim/plugins/vim-coffee-script.vim
+source ~/.config/nvim/plugins/vim-surround.vim
+source ~/.config/nvim/plugins/vim-fugitive.vim
+source ~/.config/nvim/plugins/vim-bundler.vim
+source ~/.config/nvim/plugins/vim-commentary.vim
+source ~/.config/nvim/plugins/vim-dispatch.vim
+source ~/.config/nvim/plugins/vim-repeat.vim
+source ~/.config/nvim/plugins/vim-tmux-navigator.vim
+source ~/.config/nvim/plugins/vim-multiple-cursors.vim
+source ~/.config/nvim/plugins/vim-windowswap.vim
+
+" Plug 'christoomey/vim-tmux-runner'
 " Plug 'farseer90718/vim-taskwarrior'
-Plug 'editorconfig/editorconfig-vim'
-Plug 'wesQ3/vim-windowswap'
-Plug 'godlygeek/tabular'
 call plug#end()
 
 syntax on
