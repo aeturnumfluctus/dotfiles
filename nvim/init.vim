@@ -1,4 +1,3 @@
-let mapleader = "\<Space>"
 
 " Use Vim settings, rather than Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
@@ -64,6 +63,8 @@ set textwidth=80
 set colorcolumn=+1
 set clipboard=unnamed
 " set tags=tags                     " set tags
+
+let mapleader = "\<Space>"
 
 " Airline setup
 let g:airline_powerline_fonts=1
