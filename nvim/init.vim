@@ -27,9 +27,6 @@ source ~/.config/nvim/plugins/vim-repeat.vim
 source ~/.config/nvim/plugins/vim-tmux-navigator.vim
 source ~/.config/nvim/plugins/vim-multiple-cursors.vim
 source ~/.config/nvim/plugins/vim-windowswap.vim
-
-" Plug 'christoomey/vim-tmux-runner'
-" Plug 'farseer90718/vim-taskwarrior'
 call plug#end()
 
 syntax on
