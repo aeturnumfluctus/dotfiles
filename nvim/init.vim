@@ -5,6 +5,11 @@ let mapleader = "\<Space>"
 set nocompatible
 filetype off                      "required
 
+
+"-------------------------------------------------------------------------------
+" Plugins
+"-------------------------------------------------------------------------------
+
 call plug#begin()
 Plug 'lilydjwg/colorizer'
 Plug 'elixir-lang/vim-elixir'
@@ -30,6 +35,10 @@ call plug#end()
 
 syntax on
 filetype plugin indent on
+
+"-------------------------------------------------------------------------------
+" General Settings
+"-------------------------------------------------------------------------------
 
 "http://stackoverflow.com/questions/607435/why-does-vim-save-files-with-a-extension
 set number                        " enable line numbers
@@ -61,6 +70,16 @@ let g:airline_powerline_fonts=1
 let g:airline_theme='sol'
 set t_Co=256
 
+" Other Misc. Configs
+" In many terminal emulators the mouse works just fine, thus enable it.
+if has('mouse')
+  set mouse=a
+endif
+
+"-------------------------------------------------------------------------------
+" Keymaps
+"-------------------------------------------------------------------------------
+
 "normas mode maps
 "sets up shortcut to split to $MYVIMRC
 nmap <leader>vr :sp $MYVIMRC<cr>
@@ -86,16 +105,8 @@ map Q gq
 "jj to escape insert mode :)
 imap jj <esc>
 
-" Other Misc. Configs
-" In many terminal emulators the mouse works just fine, thus enable it.
-if has('mouse')
-  set mouse=a
-endif
-
 " automatically rebalance windows on vim resize
 autocmd VimResized * :wincmd =
 " zoom a vim pane, <C-w>= to re-balance
 nnoremap <leader>- :wincmd _<cr>:wincmd \|<cr>
 nnoremap <leader>= :wincmd =<cr>
-
-
