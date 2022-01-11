@@ -64,8 +64,6 @@ set colorcolumn=+1
 set clipboard=unnamed
 " set tags=tags                     " set tags
 
-let mapleader = "\<Space>"
-
 " Airline setup
 let g:airline_powerline_fonts=1
 let g:airline_theme='sol'
@@ -83,6 +81,8 @@ autocmd VimResized * :wincmd =
 "-------------------------------------------------------------------------------
 " Keymaps
 "-------------------------------------------------------------------------------
+
+let mapleader = "\<Space>"
 
 "normas mode maps
 "sets up shortcut to split to $MYVIMRC
