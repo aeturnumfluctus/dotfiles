@@ -89,6 +89,9 @@ nmap <leader>ve :sp $MYVIMRC<cr>
 "sets up shortcut to source $MYVIMRC
 nmap <leader>so :source $MYVIMRC<cr>
 
+" allow gf to open non-existent files
+map gf :edit <cfile><cr>
+
 " vim-tmux-runner
 "open a new tmux pane and start zeus
 " nnoremap <leader>zst :VtrOpenRunner {'orientation': 'v', 'percentage': 20, 'cmd': 'zeus start'}<cr>
