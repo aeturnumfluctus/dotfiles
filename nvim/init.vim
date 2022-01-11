@@ -17,7 +17,6 @@ source ~/.config/nvim/plugins/tabular.vim
 source ~/.config/nvim/plugins/vim-airline-themes.vim
 source ~/.config/nvim/plugins/vim-airline.vim
 source ~/.config/nvim/plugins/vim-bundler.vim
-source ~/.config/nvim/plugins/vim-coffee-script.vim
 source ~/.config/nvim/plugins/vim-commentary.vim
 source ~/.config/nvim/plugins/vim-dispatch.vim
 source ~/.config/nvim/plugins/vim-elixir.vim
