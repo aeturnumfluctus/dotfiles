@@ -86,7 +86,7 @@ let mapleader = "\<Space>"
 "normas mode maps
 "sets up shortcut to split to $MYVIMRC
 nmap <leader>ve :sp $MYVIMRC<cr>
-"sets up shortcut to source ~/.vimrc
+"sets up shortcut to source $MYVIMRC
 nmap <leader>so :source $MYVIMRC<cr>
 
 " vim-tmux-runner
