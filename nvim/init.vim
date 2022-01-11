@@ -14,19 +14,20 @@ source ~/.config/nvim/plugins/colorizer.vim
 source ~/.config/nvim/plugins/ctrlp.vim
 source ~/.config/nvim/plugins/editorconfig-vim.vim
 source ~/.config/nvim/plugins/tabular.vim
-source ~/.config/nvim/plugins/vim-airline.vim
 source ~/.config/nvim/plugins/vim-airline-themes.vim
-source ~/.config/nvim/plugins/vim-elixir.vim
-source ~/.config/nvim/plugins/vim-coffee-script.vim
-source ~/.config/nvim/plugins/vim-surround.vim
-source ~/.config/nvim/plugins/vim-fugitive.vim
+source ~/.config/nvim/plugins/vim-airline.vim
 source ~/.config/nvim/plugins/vim-bundler.vim
+source ~/.config/nvim/plugins/vim-coffee-script.vim
 source ~/.config/nvim/plugins/vim-commentary.vim
 source ~/.config/nvim/plugins/vim-dispatch.vim
-source ~/.config/nvim/plugins/vim-repeat.vim
-source ~/.config/nvim/plugins/vim-tmux-navigator.vim
+source ~/.config/nvim/plugins/vim-elixir.vim
+source ~/.config/nvim/plugins/vim-fugitive.vim
 source ~/.config/nvim/plugins/vim-multiple-cursors.vim
+source ~/.config/nvim/plugins/vim-repeat.vim
+source ~/.config/nvim/plugins/vim-surround.vim
+source ~/.config/nvim/plugins/vim-tmux-navigator.vim
 source ~/.config/nvim/plugins/vim-windowswap.vim
+
 call plug#end()
 
 syntax on
