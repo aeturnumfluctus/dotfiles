@@ -13,6 +13,7 @@ call plug#begin()
 source ~/.config/nvim/plugins/colorizer.vim
 " source ~/.config/nvim/plugins/ctrlp.vim
 source ~/.config/nvim/plugins/editorconfig-vim.vim
+source ~/.config/nvim/plugins/rust-lang/rust.vim
 source ~/.config/nvim/plugins/tabular.vim
 source ~/.config/nvim/plugins/telescope.vim 
 source ~/.config/nvim/plugins/vim-airline-themes.vim
