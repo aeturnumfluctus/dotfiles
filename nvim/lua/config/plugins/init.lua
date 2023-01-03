@@ -5,4 +5,6 @@ return {
   "tpope/vim-repeat",
   
   "sheerun/vim-polyglot",
+
+  "terryma/vim-multiple-cursors",
 }
