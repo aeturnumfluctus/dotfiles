@@ -3,4 +3,6 @@ return {
   "tpope/vim-commentary",
   "tpope/vim-fugitive",
   "tpope/vim-repeat",
+  
+  "sheerun/vim-polyglot",
 }
