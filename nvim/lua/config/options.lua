@@ -15,6 +15,8 @@ vim.opt.signcolumn = "yes"
 -- vim.opt.splitbelow = true
 vim.opt.termguicolors = true
 -- vim.opt.showmode = false
+vim.opt.textwidth = 80
+-- vim.opt.colorcolumn = +1
 
 -- Indentation
 vim.opt.expandtab = true
@@ -37,4 +39,5 @@ vim.opt.clipboard = "unnamedplus"
 -- vim.opt.hidden = true
 vim.opt.undofile = true
 vim.opt.updatetime = 1000
+-- vim.opt.noswapfile = true
 
