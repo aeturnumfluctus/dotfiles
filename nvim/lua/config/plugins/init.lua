@@ -3,8 +3,8 @@ return {
   "tpope/vim-commentary",
   "tpope/vim-fugitive",
   "tpope/vim-repeat",
-  
+
   "sheerun/vim-polyglot",
 
-  "terryma/vim-multiple-cursors",
+  "mg979/vim-visual-multi",
 }
