@@ -13,4 +13,30 @@ return {
     i(1),
     rep(1)
   })),
+
+  s("tdd",
+    fmt(
+      [[
+        test "{}" do
+          {}
+        end
+      ]],
+      { i(1), i(2) }
+    )
+  ),
+
+  s("fdoc",
+    fmt(
+      [[
+        @doc """
+        {}
+
+        ## Examples
+
+            iex> {}
+        """
+      ]],
+      { i(1), i(2) }
+    )
+  ),
 }

@@ -1,10 +1,11 @@
-return {
-  "folke/tokyonight.nvim",
-  config = function()
-    require("tokyonight").setup({
-      style = "moon"
-    })
+-- return {
+--   "folke/tokyonight.nvim",
+--   config = function()
+--     require("tokyonight").setup({
+--       style = "moon"
+--     })
 
-    vim.cmd.colorscheme("tokyonight")
-  end
-}
+--     vim.cmd.colorscheme("tokyonight")
+--   end
+-- }
+return {}

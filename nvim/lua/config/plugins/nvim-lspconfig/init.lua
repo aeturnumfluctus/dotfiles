@@ -13,7 +13,7 @@ function M.config()
   local servers = {
     bashls = {},
     elixirls = {},
-    sumneko_lua = {
+    lua_ls = {
       Lua = {
         telemetry = { enable = false },
         workspace = { checkThirdParty = false },

@@ -98,6 +98,15 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+# prompt customization via starship
+
+# Alacritty aliases
+export ALACRITTY_CONFIG=~/.config/alacritty/alacritty.yml
+alias alacriconf='nvim $ALACRITTY_CONFIG'
+
+# Obsidian aliases
+export OBSIDIAN_VAULTS_LOCATION=~/o_vaults
+alias odns='nvim $OBSIDIAN_VAULTS_LOCATION/grid_point/dailies' #open daily notes folder via nvim
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
