@@ -3,7 +3,6 @@ return {
 
   "christoomey/vim-tmux-navigator", -- tmux & split window navigation
 
-  "tpope/vim-surround",
   "tpope/vim-fugitive",
   "tpope/vim-repeat",
 
